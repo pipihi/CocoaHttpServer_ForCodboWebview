@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSHTTPServer'
-  s.version          = '2.5.8'
+  s.version          = '2.5.9'
   s.summary          = 'Edit from CocoaHTTPServer2 only for iOS/CodboWebview.'
 
   s.description      = <<-DESC
