@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSHTTPServer'
-  s.version          = '2.5.7'
+  s.version          = '2.5.8'
   s.summary          = 'Edit from CocoaHTTPServer2 only for iOS/CodboWebview.'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => 'https://github.com/pipihi/CocoaHttpServer_ForCodboWebview.git', :tag => s.version.to_s }
   s.source_files = 'iOSHTTPServer/Classes/**/*'
-
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.libraries = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
