@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2830D7B89813544550ED49B1 /* Pods_iOSHTTPServer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4866CE80F146BE1E4121A698 /* Pods_iOSHTTPServer_Tests.framework */; };
+		4870D00E2194290B00271C3F /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 4870D00D2194290B00271C3F /* README.markdown */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 		068C4327FC4AA8D5897B1CE0 /* Pods_iOSHTTPServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSHTTPServer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		071244A6B067E539E3DB9B38 /* Pods-iOSHTTPServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSHTTPServer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSHTTPServer_Example/Pods-iOSHTTPServer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4866CE80F146BE1E4121A698 /* Pods_iOSHTTPServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSHTTPServer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4870D00D2194290B00271C3F /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
 		48C814C621940512002E4772 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		6003F58A195388D20070C39A /* iOSHTTPServer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHTTPServer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +67,6 @@
 		77FA182C55C4CD07A16E18E4 /* Pods-iOSHTTPServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSHTTPServer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSHTTPServer_Example/Pods-iOSHTTPServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7920F873D9B6705301BD270E /* iOSHTTPServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSHTTPServer.podspec; path = ../iOSHTTPServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B55B399DFCBA8501E20F706C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4857B13367E6EC5E3C12834 /* Pods-iOSHTTPServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSHTTPServer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSHTTPServer_Tests/Pods-iOSHTTPServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7F123E205F7FB41D87FEF78 /* Pods-iOSHTTPServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSHTTPServer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSHTTPServer_Tests/Pods-iOSHTTPServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,8 +181,8 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				4870D00D2194290B00271C3F /* README.markdown */,
 				7920F873D9B6705301BD270E /* iOSHTTPServer.podspec */,
-				B55B399DFCBA8501E20F706C /* README.md */,
 				626587E51009ADD2657F85FF /* LICENSE */,
 			);
 			name = "Podspec Metadata";
@@ -282,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4870D00E2194290B00271C3F /* README.markdown in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
