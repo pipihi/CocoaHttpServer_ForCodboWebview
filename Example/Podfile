@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSHTTPServer_Example' do
+  pod 'iOSHTTPServer', :path => '../'
+
+  target 'iOSHTTPServer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

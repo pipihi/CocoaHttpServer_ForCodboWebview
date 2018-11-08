@@ -1,0 +1,16 @@
+PODS:
+  - iOSHTTPServer (0.1.0)
+
+DEPENDENCIES:
+  - iOSHTTPServer (from `../`)
+
+EXTERNAL SOURCES:
+  iOSHTTPServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSHTTPServer: 4a0b5c66bdab815fa19974bb1935afceca01c713
+
+PODFILE CHECKSUM: 43d7c3658ad066aa88f6486367d50fd4892a03aa
+
+COCOAPODS: 1.5.3

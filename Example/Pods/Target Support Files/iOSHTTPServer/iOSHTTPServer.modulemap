@@ -1,0 +1,6 @@
+framework module iOSHTTPServer {
+  umbrella header "iOSHTTPServer-umbrella.h"
+
+  export *
+  module * { export * }
+}
