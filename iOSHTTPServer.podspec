@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   Origin seen https://github.com/huangjimmy/CocoaHTTPServer
                        DESC
 
-  s.homepage         = 'https://github.com/pipihi/iOSHTTPServer'
+  s.homepage         = 'https://github.com/pipihi/CocoaHttpServer_ForCodboWebview'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = { 'Robbie Hanson' => 'cocoahttpserver@googlegroups.com' }
   s.source           = { :git => 'https://github.com/pipihi/CocoaHttpServer_ForCodboWebview.git', :tag => s.version.to_s }
