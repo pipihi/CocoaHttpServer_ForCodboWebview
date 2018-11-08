@@ -1,5 +1,5 @@
 {
-  "name": "CocoaHTTPServer2",
+  "name": "CocoaHttpServer_ForCodboWebview",
   "version": "2.4.2",
   "license": "BSD",
   "summary": "A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications.",
