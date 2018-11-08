@@ -1,6 +1,6 @@
 {
   "name": "CocoaHttpServer_ForCodboWebview",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "license": "BSD",
   "summary": "Edit from CocoaHTTPServer2 only for iOS/CodboWebview.",
   "homepage": "https://github.com/huangjimmy/CocoaHTTPServer",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/pipihi/CocoaHttpServer_ForCodboWebview.git",
-    "tag": "2.4.3"
+    "tag": "2.4.4"
   },
   "source_files": "{Core,Extensions}/**/*.{h,m}",
   "requires_arc": true,
