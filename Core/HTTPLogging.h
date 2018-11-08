@@ -47,16 +47,16 @@
 **/
 
 
-//#import "DDLog.h"
+#import "DDLog.h"
 
-// https://stackoverflow.com/questions/40084786/cocoahttpserver2-3-implicit-declaration-of-function-log-objc-maybe-is-invalid
-#import <CocoaLumberjack/CocoaLumberjack.h>
-
-#define LOG_OBJC_MAYBE(async, lvl, flg, ctx, frmt, ...) \
-do{ if(HTTP_LOG_ASYNC_ENABLED) LOG_MAYBE(async, lvl, flg, ctx, nil, sel_getName(_cmd), frmt, ##__VA_ARGS__); } while(0)
-
-#define LOG_C_MAYBE(async, lvl, flg, ctx, frmt, ...) \
-do{ if(HTTP_LOG_ASYNC_ENABLED) LOG_MAYBE(async, lvl, flg, ctx, nil, __FUNCTION__, frmt, ##__VA_ARGS__); } while(0)
+//// https://stackoverflow.com/questions/40084786/cocoahttpserver2-3-implicit-declaration-of-function-log-objc-maybe-is-invalid
+//#import <CocoaLumberjack/CocoaLumberjack.h>
+//
+//#define LOG_OBJC_MAYBE(async, lvl, flg, ctx, frmt, ...) \
+//do{ if(HTTP_LOG_ASYNC_ENABLED) LOG_MAYBE(async, lvl, flg, ctx, nil, sel_getName(_cmd), frmt, ##__VA_ARGS__); } while(0)
+//
+//#define LOG_C_MAYBE(async, lvl, flg, ctx, frmt, ...) \
+//do{ if(HTTP_LOG_ASYNC_ENABLED) LOG_MAYBE(async, lvl, flg, ctx, nil, __FUNCTION__, frmt, ##__VA_ARGS__); } while(0)
 
 // Define logging context for every log message coming from the HTTP server.
 // The logging context can be extracted from the DDLogMessage from within the logging framework,
